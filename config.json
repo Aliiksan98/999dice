@@ -4,21 +4,21 @@
 "Username": "",
      "Password": ""
      },
- "Target Profit": "2000",
+ "Target Profit": "2",
  "Target Win": "500000",
  "Lose Target": "90",
- "Reset If Target Profit": "OFF",
+ "Reset If Target Profit": "ON",
  "Reset If Target Win": "OFF",
  "Interval": "1",
  "Config": [{
 
      "Name Bet Set": "Mining",
-     "Base Bet": "0.01",
+     "Base Bet": "0.0001",
      "Max Bet": "OFF",
      "Chance": "49.25",
      "Random Chance": {
-          "Toggle": "OFF",
-          "Min": "49",
+          "Toggle": "ON",
+          "Min": "29",
           "Max": "49.25"
         },
      "Bet": {
@@ -30,14 +30,14 @@
             }
         },
      "If Win": "1.05",
-     "If Lose": "1.3",
+     "If Lose": "1.2",
      "Reset If Win": "2",
-     "Reset If Profit": "0.0000001",
+     "Reset If Profit": "0.00001",
      "Interval": "0"
      },{
 
      "Name Bet Set": "1 - Mining Chance  45%",
-     "Base Bet": "0.01",
+     "Base Bet": "0.0001",
      "Max Bet": "OFF",
      "Chance": "81",
      "Random Chance": {
@@ -48,7 +48,7 @@
      "Bet": {
           "Bet": "Low",
           "Hi / Low": {
-              "Toggle": "OFF",
+              "Toggle": "ON",
               "If Lose": "3",
               "If Win": "2"
             }
@@ -61,7 +61,7 @@
      },{
 
      "Name Bet Set": "2 - Mining Chance 40 %",
-     "Base Bet": "0.02001111111111111",
+     "Base Bet": "0.00002001111111111111",
      "Max Bet": "OFF",
      "Chance": "40",
      "Random Chance": {
@@ -88,7 +88,7 @@
        "Toggle": "OFF",
        "If Balance": "510000000000000000",
        "Wallet Address":   "xxxxxxxxx ",
-       "Amount": "100"
+       "Amount": "0"
       },
   "User-Agent": "Android Phone / Chrome 65 [Mobile]:Mozilla/5.0 (Linux; Android 8.0; BLA-L29 Build/HUAWEIBLA-L29) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.6 Mobile Safari/537.36"
 
